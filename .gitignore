@@ -1,0 +1,46 @@
+# 本地工具与依赖
+.cs50/
+.venv/
+__pycache__/
+
+# 系统、编译与调试产物
+.DS_Store
+*.o
+*.a
+*.so
+*.dylib
+*.dSYM/
+*.out
+*.exe
+build/
+a.out
+# make 通常生成与源文件同名、没有扩展名的程序
+hello
+mario
+cash
+change
+# 同名练习目录仍需跟踪源码
+!hello/
+!mario/
+!cash/
+!change/
+
+# 私密或临时配置
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.swp
+*~
+
+# 原始练习留在磁盘作备份；之后只编辑整理后的副本
+/mario.c
+/hello.c
+/cash/
+
+# 已下载的课程数据库（保留 SQL 练习文件）
+*.db
+*.db-journal
+*.db-wal
+*.db-shm

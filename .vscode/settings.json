@@ -1,0 +1,32 @@
+{
+  "python.defaultInterpreterPath": "/Users/yc/Documents/C-Learning/.venv/bin/python",
+  "terminal.integrated.env.osx": {
+    "PATH": "/Users/yc/Documents/C-Learning/.venv/bin:${env:PATH}",
+    "VIRTUAL_ENV": "/Users/yc/Documents/C-Learning/.venv",
+    "CC": "clang",
+    "CFLAGS": "-ferror-limit=1 -gdwarf-4 -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-gnu-folding-constant -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wno-unused-but-set-variable -Wshadow",
+    "CPPFLAGS": "-I/Users/yc/Documents/C-Learning/.cs50/include",
+    "LDFLAGS": "-L/Users/yc/Documents/C-Learning/.cs50/lib",
+    "LDLIBS": "-lcs50 -lm",
+    "C_INCLUDE_PATH": "/Users/yc/Documents/C-Learning/.cs50/include",
+    "LIBRARY_PATH": "/Users/yc/Documents/C-Learning/.cs50/lib",
+    "DYLD_LIBRARY_PATH": "/Users/yc/Documents/C-Learning/.cs50/lib"
+  },
+  "C_Cpp.default.includePath": [
+    "${workspaceFolder}/**",
+    "/Users/yc/Documents/C-Learning/.cs50/include"
+  ],
+  "C_Cpp.default.compilerPath": "/usr/bin/clang",
+  "C_Cpp.default.cStandard": "c11",
+  "sqlite.sqlite3": "/usr/bin/sqlite3",
+  "files.exclude": {
+    ".venv": true,
+    ".cs50": true
+  },
+  "search.exclude": {
+    ".venv/**": true,
+    ".cs50/**": true
+  },
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true
+}

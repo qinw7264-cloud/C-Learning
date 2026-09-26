@@ -1,0 +1,1 @@
+-- 6. Average rating of movies in 2012

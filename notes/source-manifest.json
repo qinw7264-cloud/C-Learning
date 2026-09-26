@@ -1,0 +1,22 @@
+[
+  {
+    "source": "/Users/yc/Documents/C-Learning/mario.c",
+    "destination": "cs50/week01/mario-more/mario.c",
+    "sha256": "3bfa4195c9df4f2a9a08557d4d624b1ea651d949a7432b933a951bd152f7f98c"
+  },
+  {
+    "source": "/Users/yc/Documents/C-Learning/cash/cash.c",
+    "destination": "cs50/week01/cash/cash.c",
+    "sha256": "5d4940ecc708901722884af6b3f8de1ff2a0f1cf02055017bfa137069995fad8"
+  },
+  {
+    "source": "/Users/yc/Documents/C-Learning/hello.c",
+    "destination": "c-basics/change/change.c",
+    "sha256": "923444c731dcb51a8cf85f721e612d6377bfc2db8f040644035faebd37dead33"
+  },
+  {
+    "source": "/Users/yc/mooc/hello.c",
+    "destination": "c-basics/hello/hello.c",
+    "sha256": "33f761594186ff50ded493f9650d91a66923fbaf0208ae5ff7566c339b96cae8"
+  }
+]

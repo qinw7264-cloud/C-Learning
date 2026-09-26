@@ -1,0 +1,1 @@
+-- 2. Birth year of Emma Stone

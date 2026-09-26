@@ -1,0 +1,1 @@
+-- 12. Titles of all of movies in which both Jennifer Lawrence and Bradley Cooper starred

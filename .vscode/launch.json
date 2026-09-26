@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "CS50: 调试当前 C 文件",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "cwd": "${fileDirname}",
+      "preLaunchTask": "CS50: 编译当前 C 文件",
+      "terminal": "integrated"
+    },
+    {
+      "name": "CS50: 调试当前 Python 文件",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "python": "/Users/yc/Documents/C-Learning/.venv/bin/python"
+    }
+  ]
+}
