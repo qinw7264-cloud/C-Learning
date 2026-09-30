@@ -2,21 +2,36 @@
   {
     "source": "/Users/yc/Documents/C-Learning/mario.c",
     "destination": "cs50/week01/mario-more/mario.c",
-    "sha256": "3bfa4195c9df4f2a9a08557d4d624b1ea651d949a7432b933a951bd152f7f98c"
+    "sha256": "3bfa4195c9df4f2a9a08557d4d624b1ea651d949a7432b933a951bd152f7f98c",
+    "preserved_original": ".local-backups/20260929-212305/originals/mario.c"
   },
   {
     "source": "/Users/yc/Documents/C-Learning/cash/cash.c",
     "destination": "cs50/week01/cash/cash.c",
-    "sha256": "5d4940ecc708901722884af6b3f8de1ff2a0f1cf02055017bfa137069995fad8"
+    "sha256": "5d4940ecc708901722884af6b3f8de1ff2a0f1cf02055017bfa137069995fad8",
+    "preserved_original": ".local-backups/20260929-212305/originals/cash/cash.c"
   },
   {
     "source": "/Users/yc/Documents/C-Learning/hello.c",
     "destination": "c-basics/change/change.c",
-    "sha256": "923444c731dcb51a8cf85f721e612d6377bfc2db8f040644035faebd37dead33"
+    "sha256": "923444c731dcb51a8cf85f721e612d6377bfc2db8f040644035faebd37dead33",
+    "preserved_original": ".local-backups/20260929-212305/originals/hello.c"
   },
   {
     "source": "/Users/yc/mooc/hello.c",
     "destination": "c-basics/hello/hello.c",
     "sha256": "33f761594186ff50ded493f9650d91a66923fbaf0208ae5ff7566c339b96cae8"
+  },
+  {
+    "source": "/Users/yc/Documents/C-Learning/cash/score.c",
+    "destination": "cs50/week02/scrabble/scrabble.c",
+    "sha256": "acbb0790c38e6e9a79d11e6269305934279d62f6707034da8d30f4862fc8c5b2",
+    "preserved_original": ".local-backups/20260929-212305/originals/cash/score.c"
+  },
+  {
+    "source": "/Users/yc/Documents/C-Learning/cash/readability.c",
+    "destination": "cs50/week02/readability/readability.c",
+    "sha256": "224ab4821903a13e50953f298e017057a8c2abdce2b3562ef0e9b65ef109a6e6",
+    "preserved_original": ".local-backups/20260929-212305/originals/cash/readability.c"
   }
 ]

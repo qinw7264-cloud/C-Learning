@@ -21,11 +21,14 @@
   "sqlite.sqlite3": "/usr/bin/sqlite3",
   "files.exclude": {
     ".venv": true,
-    ".cs50": true
+    ".cs50": true,
+    ".local-backups": true,
+    "**/*.dSYM": true
   },
   "search.exclude": {
     ".venv/**": true,
-    ".cs50/**": true
+    ".cs50/**": true,
+    ".local-backups/**": true
   },
   "editor.tabSize": 4,
   "editor.insertSpaces": true

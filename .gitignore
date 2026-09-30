@@ -34,13 +34,19 @@ change
 *.swp
 *~
 
-# 原始练习留在磁盘作备份；之后只编辑整理后的副本
-/mario.c
-/hello.c
-/cash/
+# 整理前完整快照与旧文件（仅本机）
+.local-backups/
 
 # 已下载的课程数据库（保留 SQL 练习文件）
 *.db
 *.db-journal
 *.db-wal
 *.db-shm
+
+# Week 2 编译产物；同名题目目录仍跟踪
+scrabble
+readability
+score
+!scrabble/
+!readability/
+!score/

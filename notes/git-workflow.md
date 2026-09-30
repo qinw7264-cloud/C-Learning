@@ -24,7 +24,19 @@ git commit -m "完善 Cash：增加输入校验"
 
 ## 首次连接 GitHub（尚未配置远程时）
 
-本地 Git 与 GitHub 登录是两件事。若安装并登录了 GitHub CLI，可运行：
+本地 Git 与 GitHub 登录是两件事。本次检查：仓库没有远程地址，Mac 未安装 gh；已连接的 GitHub 插件没有返回可用仓库。
+可先在 GitHub 网页创建一个空的 **Private** 仓库（不要勾选初始化 README），再运行：
+
+```sh
+cd /Users/yc/Documents/C-Learning
+git remote add origin https://github.com/qinw7264-cloud/c-cs50-learning.git
+git push -u origin main
+```
+
+上述地址要求新仓库名为 c-cs50-learning；若使用其他名称，请替换地址。
+首次推送需要 GitHub 身份验证，可使用凭据管理器或个人访问令牌，不能用账户密码代替令牌。
+
+也可以先安装 GitHub CLI，再运行：
 
 ```sh
 gh auth login
