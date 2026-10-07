@@ -33,5 +33,13 @@
     "destination": "cs50/week02/readability/readability.c",
     "sha256": "224ab4821903a13e50953f298e017057a8c2abdce2b3562ef0e9b65ef109a6e6",
     "preserved_original": ".local-backups/20260929-212305/originals/cash/readability.c"
+  },
+  {
+    "source": "/Users/yc/Documents/C-Learning/cs50/week02/caesar/caesar.c",
+    "destination": "cs50/week02/caesar/caesar.c",
+    "sha256": "7c9621af212550b4e09fd9ce76ce51cebda5906e290744624391f9d7f9f4bb1e",
+    "legacy_backup": ".local-backups/20260929-212305/originals/cash/caesar.c",
+    "legacy_backup_sha256": "f078bd852214a47e48f73a68f7ce7af3828c4a9d998b1e34151f11533d33db31",
+    "note": "当前完成学习版与旧版未完成备份内容不同；二者均保留原样。"
   }
 ]

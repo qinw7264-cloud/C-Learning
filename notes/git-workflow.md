@@ -24,7 +24,7 @@ git commit -m "完善 Cash：增加输入校验"
 
 ## 首次连接 GitHub（尚未配置远程时）
 
-本地 Git 与 GitHub 登录是两件事。本次检查：仓库没有远程地址，Mac 未安装 gh；已连接的 GitHub 插件没有返回可用仓库。
+本地 Git 与 GitHub 登录是两件事。截至 2026-10-07 检查：仓库没有远程地址。上次整理时记录 Mac 未安装 gh、已连接的 GitHub 插件没有返回可用仓库，本次未重新检查这两项。
 可先在 GitHub 网页创建一个空的 **Private** 仓库（不要勾选初始化 README），再运行：
 
 ```sh
@@ -45,3 +45,19 @@ gh repo create c-cs50-learning --private --source=. --remote=origin --push
 ```
 
 若同名仓库已存在，应先确认其内容再决定连接，避免覆盖。已设置 origin 时不要重复创建仓库；用 `git remote -v` 查看，用 `git push` 更新。
+
+## 最简日常流程
+
+先在当前题目目录保存、编译并运行样例；回到仓库根目录，只加入本题源码和实际更新的说明。以下以 Caesar 为例，下一题替换对应路径和提交说明：
+
+```sh
+cd /Users/yc/Documents/C-Learning
+git status
+git add cs50/week02/caesar/caesar.c
+git diff --cached
+git commit -m "完成 Week 2 Caesar"
+# git remote -v 有远程地址时再执行
+git push
+```
+
+新题若生成无扩展名程序，照现有规则把程序名加入 .gitignore，同时用 !题目名/ 保留源码目录；将 .gitignore 一并加入本次提交。更新进度或 README 时，也需显式 git add 对应文件。

@@ -50,3 +50,7 @@ score
 !scrabble/
 !readability/
 !score/
+
+# Week 2 Caesar 编译产物；保留同名源码目录
+caesar
+!caesar/
