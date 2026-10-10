@@ -1,8 +1,10 @@
 # 学习进度
 
-更新：2026-10-07。
+更新：2026-10-10。
 
 ## 已完成的学习版作品
+
+- Week 3 Plurality：已整理到 cs50/week03/plurality/plurality.c；练习结构体数组、strcmp、bool 返回值、全局变量、两次遍历寻找所有最高票者。2026-10-10 使用本机 CS50 库编译，正常投票、平票、全部无效票三组检查通过；全无效票时所有候选人以 0 票并列输出。未运行官方 check50/style50。
 
 - Week 2 Scrabble：数组查询、字符遍历、大小写处理、函数参数与返回值、得分比较。原名 cash/score.c，现为 cs50/week02/scrabble/scrabble.c。
 - Week 2 Readability：分别统计字母/单词/句子，浮点除法、Coleman–Liau 公式、round 和分支输出。
@@ -25,3 +27,5 @@
 
 2026-10-07 本次归档保留所有 C 源码原样，未运行 check50/style50。
 下一步：自行修正 Caesar 边界问题并复测；完成下一题后按 notes/git-workflow.md 保存版本。
+
+2026-10-10 Plurality 从 week02/caesar/candidate.c 整理到 Week 3 目录，仅统一缩进，保留算法。待巩固：struct、全局变量与函数调用的数据访问关系。可展示作品：支持无效票判断和并列获胜者的命令行投票程序。后续学习 Runoff 前先理解选举规则。

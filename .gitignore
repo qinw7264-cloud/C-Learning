@@ -54,3 +54,8 @@ score
 # Week 2 Caesar 编译产物；保留同名源码目录
 caesar
 !caesar/
+
+# Week 3 Plurality 编译产物；保留同名源码目录
+plurality
+!plurality/
+/cs50/week02/caesar/candidate
