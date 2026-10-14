@@ -59,3 +59,8 @@ caesar
 plurality
 !plurality/
 /cs50/week02/caesar/candidate
+
+# 本地练习编译产物（保留同名 .c 源码）
+/cs50/week02/caesar/runoff
+/cs50/week02/caesar/zuoye
+/cs50/week03/runoff/runoff
