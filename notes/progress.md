@@ -29,3 +29,30 @@
 下一步：自行修正 Caesar 边界问题并复测；完成下一题后按 notes/git-workflow.md 保存版本。
 
 2026-10-10 Plurality 从 week02/caesar/candidate.c 整理到 Week 3 目录，仅统一缩进，保留算法。待巩固：struct、全局变量与函数调用的数据访问关系。可展示作品：支持无效票判断和并列获胜者的命令行投票程序。后续学习 Runoff 前先理解选举规则。
+
+## 2026-10-31：Week 4 Volume 准备开始
+
+- 官方 2026 原始作业已导入 `cs50/week04/volume/`，包含 `volume.c` 与 `input.wav`；待填写代码保持原样，尚未完成作业。
+- 题目：https://cs50.harvard.edu/x/psets/4/volume/
+- 来源：https://cdn.cs50.net/2026/x/psets/4/volume.zip
+- 学习目标：二进制文件读写、44 字节 WAV 文件头、16 位音频采样与音量缩放。当前掌握情况待练习确认。
+- 编译产物与生成的 WAV 输出已加入忽略规则，官方输入音频保留。
+
+## 2026-10-31：Week 4 Filter 基础版准备开始
+
+- 下一题有基础版与挑战版，本次默认导入基础版 `cs50/week04/filter-less/`。
+- 官方 2026 原始文件保持原样，包含 helpers.c、helpers.h、filter.c、bmp.h、Makefile 与 images/ 中的四张示例图片；尚未实现滤镜。
+- 题目：https://cs50.harvard.edu/x/psets/4/filter/less/
+- 来源：https://cdn.cs50.net/2026/x/psets/4/filter-less.zip
+- 官方骨架已在临时目录通过本机 make filter 编译，未进行作业正确性验收。
+- 学习目标：RGB 像素、结构体、二维数组、灰度、怀旧、水平翻转和模糊；掌握情况待练习确认。可展示作品目标：命令行图片滤镜工具。
+- 在本题目录运行 make filter，将 filter.c 与 helpers.c 一起编译；主要填写 helpers.c。例如完成灰度后运行 ./filter -g images/yard.bmp output.bmp。
+- 程序、题目目录根部生成的 BMP 与 output/ 已忽略，官方 images/ 示例保留。
+
+## 2026-11-02：完成 CS50x Week 4
+
+- 完成 Volume：能够复制 WAV 文件头、逐个读取 16 位采样并按倍率调整音量。用倍率 1 生成的文件与原始输入逐字节一致。
+- 完成 Filter (Less)：实现灰度、怀旧、水平翻转和模糊四种滤镜；四种模式均在示例 BMP 上运行成功。
+- 完成 Recover：独立梳理 512 字节块、JPEG 文件头识别、文件切换与连续写入逻辑，从 `card.raw` 成功恢复 50 张 JPEG。
+- 本次三个程序均通过 `-Wall -Wextra -Werror` 编译检查。可展示作品：命令行音量调整器、图片滤镜工具、存储卡照片恢复工具。
+- 关键进步：面对较长流程时，已经能自己拆分状态与分支并把整条逻辑串起来。待巩固：二进制 I/O 返回值检查、格式化与边界条件，以及把重复的本机验证整理成更系统的测试。

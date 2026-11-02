@@ -64,3 +64,18 @@ plurality
 /cs50/week02/caesar/runoff
 /cs50/week02/caesar/zuoye
 /cs50/week03/runoff/runoff
+
+# Week 4 Volume 编译与音频输出；保留官方输入音频
+/cs50/week04/volume/volume
+/cs50/week04/volume/*.wav
+!/cs50/week04/volume/input.wav
+
+# Week 4 Filter 基础版：忽略程序及生成图片，保留官方 images 示例
+/cs50/week04/filter-less/filter
+/cs50/week04/filter-less/*.bmp
+/cs50/week04/filter-less/output/
+
+# Week 4 Recover 编译产物、原始存储卡与恢复出的图片
+/cs50/week04/recover/recover
+/cs50/week04/recover/card.raw
+/cs50/week04/recover/[0-9][0-9][0-9].jpg
